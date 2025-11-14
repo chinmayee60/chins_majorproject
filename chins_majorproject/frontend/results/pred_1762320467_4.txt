@@ -1,0 +1,14 @@
+Model Type: Plant
+Timestamp: 2025-11-05 06:27:48
+User ID: 4
+------------------------------------------
+Detected Disease: Pepper,_bell___healthy
+Confidence: 99.99%
+Input Detail: Uploaded file: healthy-green-leaf-2J0AP2T.jpg
+Image Path: results/img_1762320467_4.jpg
+
+--- AI Generated Advice ---
+For the plant disease: Pepper, bell - healthy:
+
+Part 1: Since the plant is healthy, no chemical or organic cure strategy is required.
+Part 2: To support continued plant vigor and prevent common physiological disorders, **calcium** is a beneficial nutrient for bell peppers.

@@ -1,0 +1,11 @@
+Model Type: Wheat
+Timestamp: 2025-11-03 18:41:17
+User ID: 2
+------------------------------------------
+Detected Disease: Mildew
+Confidence: 51.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175620.png
+Image Path: results/img_1762191676_2.png
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:27:50
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.49%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-05 at 11.03.25_e9289310.jpg
+Image Path: results/img_1762756070_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best strategy involves timely application of a broad-spectrum fungicide, often a mixture of different modes of action, to control disease progression and protect healthy tissue.
+
+Part 2: **Potassium (potash)** is recommended to improve overall plant vigor, strengthen cell walls, and enhance the plant's natural resistance to further infection.

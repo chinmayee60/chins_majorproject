@@ -1,0 +1,36 @@
+Model Type: Plant
+Timestamp: 2025-11-03 17:34:12
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762187652_2.png
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. Raw JSON:
+
+{
+    "candidates": [
+        {
+            "content": {
+                "role": "model"
+            },
+            "finishReason": "MAX_TOKENS",
+            "index": 0
+        }
+    ],
+    "usageMetadata": {
+        "promptTokenCount": 29,
+        "totalTokenCount": 828,
+        "promptTokensDetails": [
+            {
+                "modality": "TEXT",
+                "tokenCount": 29
+            }
+        ],
+        "thoughtsTokenCount": 799
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "jtkIaZyoJ5iNqfkPnMbN4QQ"
+}

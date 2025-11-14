@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:49:12
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.53%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175620.png
+Image Path: results/img_1762192152_2.png
+
+--- AI Generated Advice ---
+Part 1: The best strategy involves timely application of appropriate systemic fungicides, often a combination of different modes of action, to prevent further spread and protect new, healthy leaf tissue.
+
+Part 2: **Potassium (potash)** is needed to support recovery, as it enhances overall plant health, improves stress tolerance, and strengthens cell walls, aiding the plant's ability to cope with disease damage.

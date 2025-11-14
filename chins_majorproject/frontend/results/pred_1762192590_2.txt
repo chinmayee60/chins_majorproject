@@ -1,0 +1,15 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:56:30
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___Bacterial_spot
+Confidence: 98.23%
+Input Detail: Uploaded file: Screenshot 2025-11-03 232617.png
+Image Path: results/img_1762192590_2.png
+
+--- AI Generated Advice ---
+Here's a two-part answer for Pepper, bell - Bacterial spot:
+
+Part 1: The best strategy involves promptly removing infected plant parts and applying copper-based bactericides to protect new growth and limit disease spread.
+
+Part 2: Potash (potassium) is recommended to support recovery, as it enhances overall plant vigor, stress tolerance, and disease resistance, helping the plant fortify its defenses.

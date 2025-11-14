@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-12 18:35:46
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___healthy
+Confidence: 99.99%
+Input Detail: Uploaded file: healthy-green-leaf-2J0AP2T.jpg
+Image Path: results/img_1762968944_2.jpg
+
+--- AI Generated Advice ---
+AI Error (Code: 503): The model is overloaded. Please try again later.

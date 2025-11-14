@@ -1,0 +1,173 @@
+/* Custom CSS for Smart Agro AI Project - Final Professional Theme */
+
+/* --- GLOBAL COLORS & TYPOGRAPHY --- */
+body { 
+    font-family: Georgia, serif; /* High-end serif font */
+    color: #131313; /* Dark/Black text color */
+    background-color: #fcfcfc; /* Near-white background */
+    margin: 0;
+}
+
+h1, h2, h3, .navbar-caption {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+/* --- NAVIGATION BAR (Adapted from your style) --- */
+.navbar {
+    background-color: #FFFFFF !important; /* White Nav Bar */
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    min-height: 70px;
+}
+
+.navbar-brand, .navbar-caption {
+    color: #009472 !important; /* Hamburger Color used for Brand */
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* --- BUTTONS (Primary actions are Dark Grey/Black) --- */
+.btn-primary, .btn-success {
+    background-color: #131313 !important; 
+    border-color: #131313 !important;
+    color: white !important;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    min-width: 170px; /* Matching the min-width in your original button block */
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #555 !important;
+    border-color: #555 !important;
+}
+
+/* --- SIDBAR TRIGGER (Hamburger Icon) --- */
+.sidebar-toggler {
+    background: #FFFFFF; /* Hamburger container color */
+    color: #009472; /* Hamburger color */
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- OFFCANVAS SIDEBAR STYLING --- */
+.offcanvas {
+    width: 350px !important; 
+    background-color: #f5f5f5; /* OffSidebar Color */
+    color: #131313;
+}
+.offcanvas-header {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 1.5rem;
+}
+.offcanvas-title {
+    color: #131313;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: #131313 !important;
+    font-weight: 600;
+    padding: 15px 1.5rem;
+    transition: background-color 0.2s;
+}
+.nav-link:hover {
+    background-color: #ddd !important;
+}
+
+/* --- LANDING PAGE BACKGROUND (Unchanged) --- */
+.video-background {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; z-index: -100;
+}
+.video-background video, .video-background img {
+    position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%);
+    opacity: 0.15; object-fit: cover;
+}
+.landing-content {
+    background: rgba(255, 255, 255, 0.98); 
+    padding: 60px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); max-width: 800px; margin-top: 10vh; z-index: 10;
+}
+
+/* --- DASHBOARD ELEMENTS --- */
+.history-list .list-group-item {
+    border-left: 5px solid #009472; 
+    transition: background-color 0.2s;
+}
+/* --- FIXED SIDEBAR STYLING --- */
+.fixed-sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px; /* Fixed width for the sidebar */
+    height: 100vh;
+    background-color: #f5f5f5; /* OffSidebar Color */
+    color: #131313;
+    z-index: 1030; /* Above regular content but below modals */
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust the main content to clear the fixed sidebar */
+.main-content-area {
+    margin-left: 280px; /* Must match the sidebar width */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Ensure the main navigation links inside the sidebar are styled correctly */
+.fixed-sidebar-menu .nav-link {
+    padding: 15px 1.5rem;
+    color: #131313 !important;
+}
+
+/* Hide the temporary Offcanvas button as the sidebar is now permanent */
+#sidebar-toggle-button {
+    display: none !important;
+}
+
+/* Adjust top margin for the main content to keep elements aligned */
+.container.mt-5 {
+    margin-top: 0 !important;
+}
+/* --- FIXED SIDEBAR STYLING --- */
+.fixed-sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px; /* Fixed width for the sidebar */
+    height: 100vh;
+    background-color: #f5f5f5; /* OffSidebar Color */
+    color: #131313;
+    z-index: 1030; /* Ensures it stays on top */
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust the main content to clear the fixed sidebar */
+.main-content-area {
+    margin-left: 280px; /* Must match the sidebar width */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Ensure the main navigation links inside the sidebar are styled correctly */
+.fixed-sidebar-menu .nav-link {
+    padding: 15px 1.5rem;
+    color: #131313 !important;
+}
+
+/* Hide the main horizontal navbar (if still present) */
+.navbar {
+    display: none; 
+}

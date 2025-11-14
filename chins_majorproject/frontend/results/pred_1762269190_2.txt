@@ -1,0 +1,9 @@
+Model Type: Crop
+Timestamp: 2025-11-04 16:13:10
+User ID: 2
+------------------------------------------
+Recommended Crop: Rice
+Input Conditions: {"N":90,"P":42,"K":43,"temperature":20.87,"humidity":82,"pH":6.5,"rainfall":202.933}
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

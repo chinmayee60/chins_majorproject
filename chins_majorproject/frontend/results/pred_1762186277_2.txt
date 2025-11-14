@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-03 17:11:17
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762186277_2.png
+
+--- AI Generated Advice ---
+AI Error (Code: 404): models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.

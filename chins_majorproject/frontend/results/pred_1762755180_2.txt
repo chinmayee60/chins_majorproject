@@ -1,0 +1,9 @@
+Model Type: Crop
+Timestamp: 2025-11-10 07:13:00
+User ID: 2
+------------------------------------------
+Recommended Crop: Cotton
+Input Conditions: {"N":90,"P":42,"K":43,"temperature":20.87,"humidity":82,"pH":6.5,"rainfall":202.93}
+
+--- AI Generated Advice ---
+For cotton, **integrated pest management** is the most critical focus to ensure high yields and quality fiber.

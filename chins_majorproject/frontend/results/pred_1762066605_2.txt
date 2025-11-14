@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-02 07:56:44
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+
+--- AI Generated Advice ---
+AI Error: API call failed (Code: 429). Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}

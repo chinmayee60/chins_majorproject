@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-03 17:05:49
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762185949_2.png
+
+--- AI Generated Advice ---
+AI Error (Code: 400): Invalid JSON payload received. Unknown name "config": Cannot find field.

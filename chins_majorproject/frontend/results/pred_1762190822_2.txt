@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:27:02
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.53%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175620.png
+Image Path: results/img_1762190822_2.png
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

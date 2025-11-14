@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:25:34
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___Bacterial_spot
+Confidence: 86.82%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-10 at 11.37.34_d1b26139.jpg
+Image Path: results/img_1762755934_2.jpg
+
+--- AI Generated Advice ---
+Part 1: There is no true cure for bacterial spot, but the best strategy involves promptly removing infected plant parts and applying copper-based bactericides to protect healthy tissue and prevent further spread.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it enhances overall plant vigor, strengthens cell walls, and improves disease resistance.

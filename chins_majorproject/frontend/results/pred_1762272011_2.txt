@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-04 17:00:12
+User ID: 2
+------------------------------------------
+Detected Disease: Potato___Early_blight
+Confidence: 55.42%
+Input Detail: Uploaded file: download.jpeg
+Image Path: results/img_1762272011_2.jpeg
+
+--- AI Generated Advice ---
+Here's a two-part answer for Potato Early Blight:
+
+**Part 1: Cure Strategy**
+The best strategy involves regular application of broad-spectrum fungicides, such as chlorothalonil or mancozeb, initiated preventatively or at the very first sign of disease to protect foliage and prevent further spread.
+
+**Part 2: Recommended Nutrient for Recovery**
+**Potash (potassium)** is crucial as it enhances plant vigor, strengthens cell walls, and improves overall disease resistance, supporting the plant's ability to recover and withstand future stress.

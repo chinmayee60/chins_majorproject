@@ -1,0 +1,11 @@
+Model Type: Wheat
+Timestamp: 2025-11-05 06:37:58
+User ID: 4
+------------------------------------------
+Detected Disease: Brown Rust
+Confidence: 88.17%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-05 at 11.03.25_e9289310.jpg
+Image Path: results/img_1762321078_4.jpg
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

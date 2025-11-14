@@ -1,0 +1,15 @@
+Model Type: Wheat
+Timestamp: 2025-11-05 06:24:06
+User ID: 4
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 65.73%
+Input Detail: Uploaded file: Stemrot1.JPG
+Image Path: results/img_1762320246_4.JPG
+
+--- AI Generated Advice ---
+Here's a two-part answer for Aphid infestations:
+
+Part 1: For aphid infestations, apply insecticidal soap or neem oil thoroughly to all affected plant surfaces, ensuring contact with the pests, or use a strong jet of water to dislodge them.
+
+Part 2: Potash (potassium) to strengthen cell walls and improve overall plant vigor, making it more resilient to stress and future pest attacks, while avoiding excessive nitrogen which can promote lush, tender growth attractive to aphids.

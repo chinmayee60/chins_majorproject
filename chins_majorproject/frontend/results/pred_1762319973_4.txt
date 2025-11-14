@@ -1,0 +1,17 @@
+Model Type: Wheat
+Timestamp: 2025-11-05 06:19:33
+User ID: 4
+------------------------------------------
+Detected Disease: Mildew
+Confidence: 52.47%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_03a8b87c.jpg
+Image Path: results/img_1762319973_4.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for Mildew:
+
+**Part 1: Cure Strategy**
+The best cure strategy involves promptly spraying affected foliage with an organic fungicide like neem oil or a potassium bicarbonate solution to inhibit fungal growth.
+
+**Part 2: Fertilizer/Nutrient for Recovery**
+**Potassium (potash)** is recommended to support recovery, as it enhances overall plant vigor, strengthens cell walls, and improves disease resistance.

@@ -1,0 +1,9 @@
+Model Type: Crop
+Timestamp: 2025-11-05 06:15:24
+User ID: 4
+------------------------------------------
+Recommended Crop: Pulses
+Input Conditions: {"N":90,"P":42,"K":43,"temperature":20.87,"humidity":82,"pH":6.5,"rainfall":202.93}
+
+--- AI Generated Advice ---
+Focus on optimizing soil health and *Rhizobium* inoculation to maximize nitrogen fixation, which is crucial for their growth and yield.

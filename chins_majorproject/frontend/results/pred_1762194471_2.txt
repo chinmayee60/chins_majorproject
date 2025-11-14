@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-03 19:27:51
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___Bacterial_spot
+Confidence: 63.18%
+Input Detail: Uploaded file: Screenshot 2025-11-03 235740.png
+Image Path: results/img_1762194471_2.png
+
+--- AI Generated Advice ---
+Here's the two-part answer:
+
+**Part 1: Cure Strategy**
+Regular applications of copper-based bactericides are the primary strategy to suppress the disease and protect new growth from further infection.
+
+**Part 2: Nutrient for Recovery**
+Potassium (potash) to improve overall plant vigor and disease resistance.

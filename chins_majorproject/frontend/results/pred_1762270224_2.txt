@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-04 16:30:25
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.17%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_03a8b87c.jpg
+Image Path: results/img_1762270224_2.jpg
+
+--- AI Generated Advice ---
+AI Error (Code: 503): The model is overloaded. Please try again later.

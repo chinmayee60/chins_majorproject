@@ -1,0 +1,36 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:45:34
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762191934_2.png
+
+--- AI Generated Advice ---
+AI Error: Final parsing attempt failed. Raw JSON:
+
+{
+    "candidates": [
+        {
+            "content": {
+                "role": "model"
+            },
+            "finishReason": "MAX_TOKENS",
+            "index": 0
+        }
+    ],
+    "usageMetadata": {
+        "promptTokenCount": 65,
+        "totalTokenCount": 564,
+        "promptTokensDetails": [
+            {
+                "modality": "TEXT",
+                "tokenCount": 65
+            }
+        ],
+        "thoughtsTokenCount": 499
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ROoIaYShO4vPjuMPhvST6QQ"
+}

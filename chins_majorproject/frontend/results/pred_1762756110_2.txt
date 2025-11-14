@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-10 07:28:31
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 65.73%
+Input Detail: Uploaded file: Stemrot1.JPG
+Image Path: results/img_1762756110_2.JPG
+
+--- AI Generated Advice ---
+Part 1: For organic control, apply insecticidal soap or neem oil directly to the aphids, ensuring thorough coverage, especially on undersides of leaves.
+
+Part 2: Potassium (potash) is beneficial to support recovery, as it strengthens plant cell walls, improves overall plant vigor, and enhances resistance to stress and future pest attacks.

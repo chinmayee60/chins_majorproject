@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:51:39
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762192299_2.png
+
+--- AI Generated Advice ---
+Part 1: The best cure strategy involves applying a systemic fungicide (e.g., myclobutanil) or an organic copper-based spray at the first sign of disease and continuing applications according to label instructions, especially during wet periods, to halt its spread.
+
+Part 2: **Potash** (Potassium) is needed to support recovery, as it strengthens cell walls, improves overall plant vigor, and enhances disease resistance.

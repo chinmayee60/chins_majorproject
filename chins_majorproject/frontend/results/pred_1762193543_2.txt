@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-03 19:12:24
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 58.61%
+Input Detail: Uploaded file: Screenshot 2025-11-01 180114.png
+Image Path: results/img_1762193543_2.png
+
+--- AI Generated Advice ---
+Part 1: For an aphid infestation, the best strategy is to spray affected plants thoroughly with insecticidal soap, ensuring coverage of both the top and undersides of leaves, to smother and kill the pests.
+
+Part 2: To support recovery, **nitrogen** is needed to help the plant regrow damaged foliage and regain vigor.

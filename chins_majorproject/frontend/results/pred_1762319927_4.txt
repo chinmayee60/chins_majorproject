@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-05 06:18:48
+User ID: 4
+------------------------------------------
+Detected Disease: Cherry_(including_sour)___healthy
+Confidence: 55.52%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.40_c03588c8.jpg
+Image Path: results/img_1762319927_4.jpg
+
+--- AI Generated Advice ---
+Here's the two-part answer:
+
+**Part 1: Chemical or Organic Cure Strategy**
+To maintain optimal health and prevent common issues, implement an Integrated Pest Management (IPM) strategy that includes sanitation, proper pruning for air circulation, and the judicious use of appropriate fungicides (organic such as copper or sulfur, or conventional) at the first sign of disease.
+
+**Part 2: Specific Fertilizer or Nutrient**
+Potassium (potash)

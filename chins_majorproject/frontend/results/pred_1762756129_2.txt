@@ -1,0 +1,14 @@
+Model Type: Wheat
+Timestamp: 2025-11-10 07:28:50
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 65.73%
+Input Detail: Uploaded file: Stemrot1.JPG
+Image Path: results/img_1762756129_2.JPG
+
+--- AI Generated Advice ---
+Here's a two-part answer for Aphids:
+
+1.  The best strategy involves thoroughly spraying affected plants with insecticidal soap or neem oil to smother and deter aphids, or using a strong jet of water to dislodge them.
+2.  To support recovery, apply a balanced fertilizer with an emphasis on **potassium (potash)**, which enhances overall plant vigor, stress resistance, and strengthens cell walls.

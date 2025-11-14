@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-05 06:34:09
+User ID: 4
+------------------------------------------
+Detected Disease: Brown Rust
+Confidence: 88.17%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-05 at 11.03.25_e9289310.jpg
+Image Path: results/img_1762320849_4.jpg
+
+--- AI Generated Advice ---
+Part 1: Implement a fungicide application program (using organic options like sulfur or neem oil, or chemical systemic fungicides) at the first sign of disease, alongside cultural practices such as removing infected material and ensuring good air circulation.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it strengthens plant cell walls and enhances overall disease resistance.

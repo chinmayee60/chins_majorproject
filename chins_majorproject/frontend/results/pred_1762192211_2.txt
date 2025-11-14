@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:50:11
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.53%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175620.png
+Image Path: results/img_1762192211_2.png
+
+--- AI Generated Advice ---
+Here's a two-part answer for Corn Cercospora leaf spot (Gray leaf spot):
+
+**Part 1: Cure Strategy**
+Apply a systemic fungicide, such as those containing strobilurins or triazoles, at the onset of symptoms to halt disease progression and protect new growth.
+
+**Part 2: Recommended Nutrient**
+Potassium (potash).

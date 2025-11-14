@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:48:45
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762192125_2.png
+
+--- AI Generated Advice ---
+Part 1: The most effective strategy involves timely and thorough applications of fungicides, using either synthetic options like myclobutanil for control or organic alternatives such as copper and sulfur for prevention and suppression, especially during wet spring conditions.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it enhances overall plant vigor, strengthens cell walls, and improves disease resistance.

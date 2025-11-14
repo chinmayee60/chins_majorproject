@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-10 07:28:41
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 65.73%
+Input Detail: Uploaded file: Stemrot1.JPG
+Image Path: results/img_1762756120_2.JPG
+
+--- AI Generated Advice ---
+Part 1: The best strategy involves thoroughly spraying affected plants with an insecticidal soap or neem oil solution, ensuring complete coverage of all aphid colonies, and repeating applications as needed until the infestation is gone.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it strengthens cell walls, improves overall plant vigor, and enhances resistance to stress and future pest attacks.

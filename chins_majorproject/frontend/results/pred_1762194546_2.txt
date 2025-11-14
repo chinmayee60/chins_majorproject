@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-03 19:29:06
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Esca_(Black_Measles)
+Confidence: 99.11%
+Input Detail: Uploaded file: Screenshot 2025-11-03 235855.png
+Image Path: results/img_1762194546_2.png
+
+--- AI Generated Advice ---
+Part 1: The most effective strategy involves surgically removing all symptomatic wood through extensive pruning or trunk renewal, followed by wound protection to prevent new infections.
+
+Part 2: High nitrogen

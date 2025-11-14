@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:25:26
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___Bacterial_spot
+Confidence: 86.82%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-10 at 11.37.34_d1b26139.jpg
+Image Path: results/img_1762755926_2.jpg
+
+--- AI Generated Advice ---
+Part 1: For bacterial spot on bell peppers, the best strategy involves applying copper-based bactericides as a protectant to new growth and to reduce the spread of existing infections.
+
+Part 2: Potassium (potash) to enhance overall plant vigor and disease resistance, aiding in recovery.

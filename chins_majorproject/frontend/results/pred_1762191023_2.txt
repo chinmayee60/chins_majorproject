@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:30:23
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175504.png
+Image Path: results/img_1762191023_2.png
+
+--- AI Generated Advice ---
+AI Error: Gemini returned unexpected format. Response saved for debugging.

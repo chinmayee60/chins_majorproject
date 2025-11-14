@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-04 17:01:03
+User ID: 2
+------------------------------------------
+Detected Disease: Potato___Early_blight
+Confidence: 55.42%
+Input Detail: Uploaded file: download.jpeg
+Image Path: results/img_1762272062_2.jpeg
+
+--- AI Generated Advice ---
+AI Error (Code: 503): The model is overloaded. Please try again later.

@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:10:29
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___healthy
+Confidence: 99.99%
+Input Detail: Uploaded file: healthy-green-leaf-2J0AP2T.jpg
+Image Path: results/img_1762755029_2.jpg
+
+--- AI Generated Advice ---
+For the plant: Pepper, bell - healthy
+
+**Part 1: Cure Strategy**
+As the plant is healthy, no cure strategy is needed; instead, focus on preventative measures and optimal growing conditions to maintain its health.
+
+**Part 2: Recommended Nutrient**
+Calcium, to prevent common issues like blossom end rot and support strong fruit development.

@@ -1,0 +1,15 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:26:12
+User ID: 2
+------------------------------------------
+Detected Disease: Strawberry___healthy
+Confidence: 99.87%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-10 at 11.37.35_829c1d00.jpg
+Image Path: results/img_1762755971_2.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for Strawberry___healthy:
+
+Part 1: The best strategy involves accurately diagnosing the specific cause of unhealthiness (e.g., pest, disease, nutrient deficiency, environmental stress) and then applying targeted chemical or organic treatments and cultural practices to rectify the issue.
+
+Part 2: Potash (Potassium)

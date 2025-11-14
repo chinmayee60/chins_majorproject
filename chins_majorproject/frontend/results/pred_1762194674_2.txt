@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-03 19:31:14
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 90.86%
+Input Detail: Uploaded file: Screenshot 2025-11-04 000103.png
+Image Path: results/img_1762194674_2.png
+
+--- AI Generated Advice ---
+Part 1: For aphids, the best strategy involves regular application of insecticidal soap or neem oil to smother the pests, often combined with a strong water spray to dislodge them.
+
+Part 2: Potash (Potassium) is recommended to support recovery, as it strengthens cell walls and improves overall plant resilience against stress and future infestations.

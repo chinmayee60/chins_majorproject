@@ -1,0 +1,17 @@
+Model Type: Plant
+Timestamp: 2025-11-05 06:05:29
+User ID: 4
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_a0a12b5b.jpg
+Image Path: results/img_1762319129_4.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for Apple Scab:
+
+**Part 1: Cure Strategy**
+The most effective strategy involves timely applications of fungicides (synthetic or organic like copper or sulfur) from bud break through early fruit development to protect new growth and halt disease spread, complemented by thorough sanitation of fallen leaves.
+
+**Part 2: Recommended Nutrient**
+**Potash (potassium)** is recommended to support recovery, as it strengthens cell walls, improves overall plant vigor, and enhances the plant's natural resistance to stress and future infections.

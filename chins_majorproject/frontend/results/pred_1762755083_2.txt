@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:11:23
+User ID: 2
+------------------------------------------
+Detected Disease: Cherry_(including_sour)___healthy
+Confidence: 55.52%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.40_c03588c8.jpg
+Image Path: results/img_1762755083_2.jpg
+
+--- AI Generated Advice ---
+Since the cherry plant is healthy, there is no disease to cure; the best strategy is proactive cultural management, including proper sanitation, pruning for good air circulation, and regular monitoring to prevent future disease development. To support its continued health and vigor, a balanced fertilizer with adequate **potassium (potash)** is beneficial, as it enhances overall plant resilience, disease resistance, and fruit quality.

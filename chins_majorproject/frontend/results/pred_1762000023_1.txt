@@ -1,0 +1,17 @@
+Model Type: Wheat
+Timestamp: 2025-11-01 13:27:02
+User ID: 1
+------------------------------------------
+Detected Disease: Mildew
+Confidence: 51.98%
+Input Detail: Uploaded file: Screenshot 2025-11-01 175620.png
+
+--- AI Generated Advice ---
+AI Error: API call failed (Code: 429). Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}

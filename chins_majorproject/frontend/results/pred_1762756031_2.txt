@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:27:11
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.17%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_03a8b87c.jpg
+Image Path: results/img_1762756031_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best cure strategy involves the timely application of appropriate fungicides, rotating modes of action to prevent resistance, upon the first appearance of symptoms.
+
+Part 2: Potassium (potash)

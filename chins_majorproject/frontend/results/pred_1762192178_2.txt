@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-03 18:49:38
+User ID: 2
+------------------------------------------
+Detected Disease: Cherry_(including_sour)___healthy
+Confidence: 48.51%
+Input Detail: Uploaded file: Screenshot 2025-11-01 180114.png
+Image Path: results/img_1762192178_2.png
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

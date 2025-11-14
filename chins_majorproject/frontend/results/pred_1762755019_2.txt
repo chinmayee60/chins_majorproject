@@ -1,0 +1,15 @@
+Model Type: Plant
+Timestamp: 2025-11-10 07:10:21
+User ID: 2
+------------------------------------------
+Detected Disease: Pepper,_bell___healthy
+Confidence: 99.99%
+Input Detail: Uploaded file: healthy-green-leaf-2J0AP2T.jpg
+Image Path: results/img_1762755019_2.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for a healthy bell pepper plant:
+
+Part 1: For a healthy bell pepper plant, the best "cure" strategy is preventative care through optimal cultural practices (e.g., proper watering, sunlight, air circulation) and regular monitoring for early signs of issues, allowing for timely organic or chemical interventions if a problem arises.
+
+Part 2: Potassium (Potash)

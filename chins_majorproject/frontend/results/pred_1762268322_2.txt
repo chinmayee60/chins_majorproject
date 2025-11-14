@@ -1,0 +1,11 @@
+Model Type: Plant
+Timestamp: 2025-11-04 15:58:43
+User ID: 2
+------------------------------------------
+Detected Disease: Cherry_(including_sour)___healthy
+Confidence: 55.52%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.40_c03588c8.jpg
+Image Path: results/img_1762268322_2.jpg
+
+--- AI Generated Advice ---
+AI Error: Model returned an UNUSABLE structure. (Final parsing attempt failed.)

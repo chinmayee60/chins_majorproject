@@ -1,0 +1,11 @@
+Model Type: Wheat
+Timestamp: 2025-11-04 17:05:28
+User ID: 2
+------------------------------------------
+Detected Disease: Yellow Rust
+Confidence: 43.27%
+Input Detail: Uploaded file: dis 1.jpeg
+Image Path: results/img_1762272327_2.jpeg
+
+--- AI Generated Advice ---
+AI Error (Code: 503): The model is overloaded. Please try again later.

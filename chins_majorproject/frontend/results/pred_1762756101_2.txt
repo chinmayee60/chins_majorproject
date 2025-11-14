@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-10 07:28:22
+User ID: 2
+------------------------------------------
+Detected Disease: Aphid
+Confidence: 65.73%
+Input Detail: Uploaded file: Stemrot1.JPG
+Image Path: results/img_1762756101_2.JPG
+
+--- AI Generated Advice ---
+Part 1: Organically, spray affected plants with a strong stream of water to dislodge aphids, then follow with repeated applications of insecticidal soap or neem oil.
+
+Part 2: Potash (Potassium)

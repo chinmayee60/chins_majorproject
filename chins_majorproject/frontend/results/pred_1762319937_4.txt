@@ -1,0 +1,15 @@
+Model Type: Plant
+Timestamp: 2025-11-05 06:18:57
+User ID: 4
+------------------------------------------
+Detected Disease: Cherry_(including_sour)___healthy
+Confidence: 55.52%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.40_c03588c8.jpg
+Image Path: results/img_1762319937_4.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for maintaining a healthy cherry tree or supporting its recovery:
+
+Part 1: To maintain a healthy cherry tree or support its general recovery, focus on robust cultural practices such as proper pruning for air circulation, adequate watering, good soil drainage, and ensuring sufficient sunlight.
+
+Part 2: Potash (potassium).

@@ -1,0 +1,15 @@
+Model Type: Wheat
+Timestamp: 2025-11-05 06:37:50
+User ID: 4
+------------------------------------------
+Detected Disease: Brown Rust
+Confidence: 88.17%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-05 at 11.03.25_e9289310.jpg
+Image Path: results/img_1762321070_4.jpg
+
+--- AI Generated Advice ---
+Here's a two-part answer for Brown Rust:
+
+Part 1: For an active Brown Rust infection, apply a targeted fungicide, such as those containing azoxystrobin or propiconazole for chemical control, or copper-based fungicides for organic management.
+
+Part 2: **Potash (Potassium)**

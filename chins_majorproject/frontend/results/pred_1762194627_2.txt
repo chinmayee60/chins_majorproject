@@ -1,0 +1,17 @@
+Model Type: Wheat
+Timestamp: 2025-11-03 19:30:27
+User ID: 2
+------------------------------------------
+Detected Disease: Leaf Blight
+Confidence: 89.41%
+Input Detail: Uploaded file: Screenshot 2025-11-04 000019.png
+Image Path: results/img_1762194627_2.png
+
+--- AI Generated Advice ---
+Here's a two-part answer for Leaf Blight:
+
+**Part 1: Cure Strategy**
+The best strategy involves promptly removing and destroying infected plant parts, followed by applying an appropriate fungicide, such as a copper-based spray (organic) or chlorothalonil (chemical), to prevent further spread.
+
+**Part 2: Recommended Nutrient**
+Potassium (Potash) is recommended to strengthen cell walls, improve disease resistance, and support overall plant vigor for recovery.

@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-04 16:26:55
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_a0a12b5b.jpg
+Image Path: results/img_1762270014_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best strategy involves applying a protective fungicide (e.g., myclobutanil chemically, or copper/sulfur organically) preventatively from bud break through early fruit development to control the disease.
+
+Part 2: Potassium (potash) is needed to support recovery, as it enhances overall plant vigor, stress tolerance, and disease resistance.
