@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-15 14:46:28
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Black_rot
+Confidence: 54.79%
+Input Detail: Uploaded file: marssonia-leaf-spot-on-euonymus-grabowski.jpg
+Image Path: results/img_1763214388_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best strategy for Grape Black Rot involves preventative fungicide applications (both synthetic and organic options like copper or sulfur) during susceptible growth stages, combined with diligent cultural practices such as sanitation and pruning to improve air circulation.
+
+Part 2: **Potassium (Potash)** is needed to support recovery, as it enhances overall plant vigor, strengthens cell walls, and improves the plant's natural resistance to diseases.

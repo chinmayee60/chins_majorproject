@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-15 15:14:07
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Black_rot
+Confidence: 54.79%
+Input Detail: Uploaded file: marssonia-leaf-spot-on-euonymus-grabowski.jpg
+Image Path: results/img_1763216046_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best chemical cure strategy involves a timely and consistent application of systemic fungicides, starting preventatively before symptoms appear and continuing through critical growth stages, rotating active ingredients to prevent resistance.
+
+Part 2: **Potash (Potassium)** is needed to support recovery, as it strengthens cell walls, improves water regulation, and enhances the plant's overall stress and disease resistance.

@@ -1,0 +1,13 @@
+Model Type: Wheat
+Timestamp: 2025-11-15 14:38:03
+User ID: 2
+------------------------------------------
+Detected Disease: Tan spot
+Confidence: 95.11%
+Input Detail: Uploaded file: Screenshot 2025-11-15 181649.png
+Image Path: results/img_1763213883_2.png
+
+--- AI Generated Advice ---
+Part 1: The most effective cure strategy involves the timely application of fungicides, particularly those containing triazoles, strobilurins, or SDHIs, often in rotation or as pre-mixes to manage resistance.
+
+Part 2: **Potassium** (potash) is recommended to support recovery, as it strengthens cell walls, improves water use efficiency, and enhances the plant's natural defense mechanisms against pathogens.

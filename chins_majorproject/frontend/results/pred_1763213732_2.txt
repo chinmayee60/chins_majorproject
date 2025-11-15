@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-15 14:35:32
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Black_rot
+Confidence: 54.79%
+Input Detail: Uploaded file: marssonia-leaf-spot-on-euonymus-grabowski.jpg
+Image Path: results/img_1763213732_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best strategy involves a combination of preventative fungicide applications (e.g., myclobutanil or copper-based products for organic) applied from bloom through veraison, coupled with rigorous sanitation to remove infected plant material.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it strengthens cell walls, improves overall plant vigor, and enhances disease resistance.

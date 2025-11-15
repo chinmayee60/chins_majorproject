@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-15 14:23:09
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Black_rot
+Confidence: 54.79%
+Input Detail: Uploaded file: marssonia-leaf-spot-on-euonymus-grabowski.jpg
+Image Path: results/img_1763212989_2.jpg
+
+--- AI Generated Advice ---
+Part 1: Implement a rigorous preventative fungicide spray program (e.g., systemic chemical fungicides like myclobutanil or organic options like copper) from pre-bloom through fruit development, combined with thorough sanitation and canopy management.
+
+Part 2: Potassium (Potash)

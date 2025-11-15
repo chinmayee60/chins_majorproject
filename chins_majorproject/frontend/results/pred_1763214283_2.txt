@@ -1,0 +1,15 @@
+Model Type: Wheat
+Timestamp: 2025-11-15 14:44:43
+User ID: 2
+------------------------------------------
+Detected Disease: Tan spot
+Confidence: 95.11%
+Input Detail: Uploaded file: Screenshot 2025-11-15 181649.png
+Image Path: results/img_1763214283_2.png
+
+--- AI Generated Advice ---
+For Tan spot:
+
+Part 1: The best chemical cure strategy involves timely application of broad-spectrum fungicides, typically a combination of triazoles (DMI) and strobilurins (QoI), applied preventatively or at the first sign of disease.
+
+Part 2: **Potassium (potash)** is recommended to support recovery, as it strengthens cell walls, improves overall plant vigor, and enhances the plant's natural resistance to stress and disease.

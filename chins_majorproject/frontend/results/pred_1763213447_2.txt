@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-15 14:30:47
+User ID: 2
+------------------------------------------
+Detected Disease: Grape___Black_rot
+Confidence: 54.79%
+Input Detail: Uploaded file: marssonia-leaf-spot-on-euonymus-grabowski.jpg
+Image Path: results/img_1763213447_2.jpg
+
+--- AI Generated Advice ---
+Part 1: The best cure strategy involves promptly removing and destroying all infected plant parts (leaves, tendrils, mummified berries) to reduce inoculum, followed by protective applications of a systemic fungicide (e.g., myclobutanil) or an organic copper-based fungicide to new growth.
+
+Part 2: **Potassium (Potash)** to enhance overall plant vigor, stress tolerance, and disease resistance, supporting the plant's recovery and ability to withstand future infections.
