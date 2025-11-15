@@ -75,125 +75,341 @@ if (isset($_GET['status']) && $_GET['status'] == 'success' && isset($_GET['file'
         }
     </script>
 <style>
-        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; font-size: 20px; }
-        /* Fixed Sidebar Implementation */
-        .fixed-sidebar-menu {
-            position: fixed; top: 0; left: 0; width: 280px; height: 100vh;
-            background-color: #f5f8f6; color: #0d1c12; z-index: 1030; padding-top: 20px; border-right: 1px solid #cee8d7;
-            display: flex; flex-direction: column;
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .text-primary { color: #0df259 !important; }
+        
+        /* Header Navigation */
+        .header-navigation {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #f5f8f6;
+            border-bottom: 1px solid #cee8d7;
         }
-        .main-content-area { margin-left: 280px; }
-        .fixed-sidebar-menu .nav-link { padding: 15px 1.5rem; color: #0d1c12 !important; font-weight: 500; }
-        .fixed-sidebar-menu .nav-link.active {
-            background-color: rgba(13, 242, 89, 0.2); color: #0d1c12 !important;
-            border-left: 3px solid #0df259; font-weight: 700;
+        .dark .header-navigation {
+            background-color: #102216;
+            border-bottom-color: #2a4f37;
         }
-        .top-navbar { display: none; }
+
+        /* Mobile Menu */
+        #mobileMenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #f5f8f6;
+            border-bottom: 1px solid #cee8d7;
+            padding: 1rem;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        #mobileMenu.open {
+            display: flex;
+        }
+        .dark #mobileMenu {
+            background-color: #102216;
+            border-bottom-color: #2a4f37;
+        }
+        
         .form-input-custom {
-            @apply form-input w-full rounded-lg border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-2 text-sm text-text-light dark:text-text-dark focus:outline-none focus:ring-1 focus:ring-primary transition-colors;
+            width: 100%; border-radius: 0.5rem; border: 1px solid #cee8d7;
+            background-color: #ffffff; padding: 0.5rem; font-size: 0.875rem;
+            color: #0d1c12; transition: all 0.2s;
         }
-    </style>
+        .form-input-custom:focus {
+            outline: none; border-color: #0df259; box-shadow: 0 0 0 1px #0df259;
+        }
+        
+        /* Custom Scrollbar */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #0df259;
+            border-radius: 3px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #0bc047;
+        }
+    </style>
 </head>
+<!-- Updated: 2025-11-15 Header-only Navigation -->
 <body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
 
-<div class="fixed-sidebar-menu">
-    <div class="px-4 py-3 border-b border-border-light dark:border-border-dark">
-        <h5 class="text-xl font-bold" style="color: #0d1c12;">SMART AGRO AI</h5>
-    </div>
-    <nav class="nav flex-column flex-1 py-4">
-      <a class="nav-link" href="index.php">Dashboard Home</a>
-      <a class="nav-link" href="predict_plant.php">🌱 Plant Disease Detection</a>
-      <a class="nav-link" href="predict_wheat.php">🌾 Wheat Disease Detection</a>
-      <a class="nav-link active" href="recommend_crop.php">📊 Crop Recommendation</a>
-      <a class="nav-link" href="recommend_map.php">🗺️ Map Recommendation</a>
-    </nav>
-    <div class="p-4 border-top border-border-light dark:border-border-dark">
-        <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-1">
-            Logged in as: <strong><?php echo htmlspecialchars($username); ?></strong>
-        </p>
-        <a href="index.php?logout=true" class="flex w-full items-center justify-center rounded-lg h-10 bg-primary/20 text-text-light dark:bg-primary/30 dark:text-text-dark hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors text-sm font-bold">Logout</a>
-    </div>
-</div>
-
-<div class="main-content-area flex flex-1 justify-center py-10 sm:py-16">
-    <div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8">
+<!-- Header Navigation -->
+<header class="header-navigation">
+    <div class="flex items-center justify-between px-4 py-3 relative">
+        <div class="flex items-center gap-3">
+            <div class="size-6 text-primary">
+                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6_535)"><path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path></g></svg>
+            </div>
+            <h2 class="text-lg font-bold">Plant AI</h2>
+        </div>
         
-        <div class="flex flex-col items-center gap-2 mb-10 text-center">
-            <p class="text-4xl font-black tracking-tighter sm:text-5xl text-text-light dark:text-text-dark">Crop Recommendation Tool</p>
-            <p class="max-w-xl text-base text-subtle-light dark:text-subtle-dark">Input the soil and environmental parameters below for analysis via Port 5002.</p>
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+            <a href="auth.php?landing=1" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Home</a>
+            <a href="index.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Dashboard</a>
+            <a href="predict_plant.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Diagnosis</a>
+            <a href="recommend_crop.php" class="text-text-light dark:text-text-dark font-bold hover:text-primary transition-colors">Crop Tool</a>
+            <a href="recommend_map.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Map</a>
+            <a href="index.php?logout=true" class="px-4 py-2 rounded-lg bg-primary/20 text-text-light hover:bg-primary/30 transition-colors font-bold">Logout</a>
+        </nav>
+        
+        <button id="mobileMenuToggle" class="md:hidden">
+            <span class="material-symbols-outlined" style="font-size: 24px;">menu</span>
+        </button>
+        
+        <div id="mobileMenu" class="md:hidden">
+            <a href="auth.php?landing=1" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Home</a>
+            <a href="index.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Dashboard</a>
+            <a href="predict_plant.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Diagnosis</a>
+            <a href="recommend_crop.php" class="px-4 py-2 text-sm font-bold hover:bg-primary/10 rounded transition-colors">Crop Tool</a>
+            <a href="recommend_map.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Map</a>
+            <a href="index.php?logout=true" class="px-4 py-2 bg-primary/20 rounded text-sm font-bold hover:bg-primary/30 transition-colors">Logout</a>
+        </div>
+    </div>
+</header>
+
+<div class="flex flex-1 justify-center py-8">
+    <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        
+        <!-- Professional Header -->
+        <div class="flex flex-col items-center gap-3 mb-8 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-green-100 to-emerald-100 dark:from-green-900/30 dark:to-emerald-900/30 text-green-700 dark:text-green-400 text-sm font-semibold mb-2">
+                <span class="material-symbols-outlined" style="font-size: 18px;">agriculture</span>
+                AI-Powered Crop Analysis
+            </div>
+            <h1 class="text-4xl md:text-5xl font-black tracking-tight text-text-light dark:text-text-dark">
+                Crop Recommendation Tool
+            </h1>
+            <p class="max-w-2xl text-base md:text-lg text-subtle-light dark:text-subtle-dark">
+                Enter soil and environmental parameters to get personalized crop recommendations based on advanced machine learning analysis
+            </p>
         </div>
 
-        <section id="upload-section" style="<?php echo $has_result ? 'display: none;' : ''; ?>" class="flex justify-center">
-            <div class="w-full max-w-3xl p-6 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark">
-                <form action="action_predict.php" method="POST">
-                    <input type="hidden" name="model_type" value="crop">
+        <!-- Upload/Input Section -->
+        <section id="upload-section" style="<?php echo $has_result ? 'display: none;' : ''; ?>">
+            <form action="action_predict.php" method="POST" class="max-w-4xl mx-auto">
+                <input type="hidden" name="model_type" value="crop">
 
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="N">Nitrogen (N) (kg/ha)</label><input type="number" step="any" class="form-input-custom" name="N" required value="90"></div>
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="P">Phosphorus (P) (kg/ha)</label><input type="number" step="any" class="form-input-custom" name="P" required value="42"></div>
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="K">Potassium (K) (kg/ha)</label><input type="number" step="any" class="form-input-custom" name="K" required value="43"></div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="temperature">Temperature (°C)</label><input type="number" step="any" class="form-input-custom" name="temperature" required value="20.87"></div>
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="humidity">Humidity (%)</label><input type="number" step="any" class="form-input-custom" name="humidity" required value="82.0"></div>
-                        <div class="flex flex-col gap-1"><label class="text-sm font-medium" for="pH">pH Value</label><input type="number" step="any" class="form-input-custom" name="pH" required value="6.5"></div>
-                    </div>
-
-                    <div class="flex flex-col gap-1 mb-6">
-                        <label class="text-sm font-medium" for="rainfall">Rainfall (mm)</label>
-                        <input type="number" step="any" class="form-input-custom" name="rainfall" required value="202.93">
-                    </div>
-                    
-                    <button type="submit" class="flex w-full items-center justify-center rounded-lg h-12 px-5 bg-primary text-background-dark text-base font-black shadow-lg hover:brightness-110 transition-all">
-                        <span class="truncate">Get Crop Recommendation</span>
-                    </button>
-                </form>
-            </div>
-        </section>
-        
-        <section id="results-section" style="<?php echo $has_result ? '' : 'display: none;'; ?>">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-4">
-                
-                <div class="flex flex-col justify-center gap-6 md:col-span-2">
-                    <div class="flex flex-col items-center text-center">
-                        <p class="text-sm font-bold uppercase tracking-wider text-primary">Recommendation Result</p>
-                        <h2 class="text-5xl font-black tracking-tighter text-text-light dark:text-text-dark mt-1"><?php echo htmlspecialchars($crop_name); ?></h2>
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-surface-dark/5 dark:bg-surface-dark border border-border-light dark:border-border-dark">
-                        <h3 class="text-lg font-bold mb-3">Input Conditions Analyzed</h3>
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm text-subtle-light dark:text-subtle-dark">
-                            <?php if (is_array($input_display)): ?>
-                                <?php foreach ($input_display as $key => $value): ?>
-                                    <p><strong class="text-text-light dark:text-text-dark"><?php echo htmlspecialchars($key); ?>:</strong> <?php echo htmlspecialchars($value); ?></p>
-                                <?php endforeach; ?>
-                            <?php else: ?>
-                                <p class="col-span-4">Raw Input: <?php echo htmlspecialchars($input_display); ?></p>
-                            <?php endif; ?>
+                <!-- Soil Nutrients Card -->
+                <div class="mb-6 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-white to-green-50/30 dark:from-surface-dark dark:to-green-900/10 border border-border-light dark:border-border-dark shadow-lg">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-emerald-500 text-white shadow-lg">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">science</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-text-light dark:text-text-dark">Soil Nutrients</h3>
+                            <p class="text-sm text-subtle-light dark:text-subtle-dark">Primary macronutrients (kg/ha)</p>
                         </div>
                     </div>
                     
-                    <div class="p-4 rounded-lg bg-surface-dark/5 dark:bg-surface-dark border border-border-light dark:border-border-dark">
-                        <h3 class="text-lg font-bold mb-3">Cultivation Guide (AI Generated)</h3>
-                        <div class="text-sm text-subtle-light dark:text-subtle-dark leading-relaxed whitespace-pre-wrap max-h-72 overflow-y-auto">
-                            <?php echo htmlspecialchars($result_data['Advice']); ?>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="N">
+                                Nitrogen (N)
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-16 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="N" required value="90" placeholder="0">
+                                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">kg/ha</span>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row items-center gap-3 pt-4">
-                        <a href="index.php" class="flex w-full sm:w-auto items-center justify-center rounded-lg h-11 px-5 bg-transparent border border-border-light dark:border-border-dark text-text-light dark:text-text-dark hover:bg-black/5 dark:hover:bg-white/5 text-sm font-bold transition-all">
-                            <span class="material-symbols-outlined mr-2 !text-lg">home</span>
-                            Go to Dashboard
-                        </a>
                         
-                        <button onclick="window.location.href='recommend_crop.php';" class="flex w-full sm:w-auto items-center justify-center rounded-lg h-11 px-5 bg-primary text-background-dark text-sm font-bold shadow-sm hover:brightness-110 transition-all">
-                            <span class="material-symbols-outlined mr-2 !text-lg">restart_alt</span>
-                            Run New Recommendation
-                        </button>
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="P">
+                                Phosphorus (P)
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-16 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="P" required value="42" placeholder="0">
+                                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">kg/ha</span>
+                            </div>
+                        </div>
+                        
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="K">
+                                Potassium (K)
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-16 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="K" required value="43" placeholder="0">
+                                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">kg/ha</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Environmental Conditions Card -->
+                <div class="mb-6 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-white to-blue-50/30 dark:from-surface-dark dark:to-blue-900/10 border border-border-light dark:border-border-dark shadow-lg">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-cyan-500 text-white shadow-lg">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">thermostat</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-text-light dark:text-text-dark">Environmental Conditions</h3>
+                            <p class="text-sm text-subtle-light dark:text-subtle-dark">Climate and weather parameters</p>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="temperature">
+                                Temperature
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-12 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="temperature" required value="20.87" placeholder="0">
+                                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">°C</span>
+                            </div>
+                        </div>
+                        
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="humidity">
+                                Humidity
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-12 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="humidity" required value="82.0" placeholder="0">
+                                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="relative">
+                            <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="pH">
+                                pH Value
+                            </label>
+                            <div class="relative">
+                                <input type="number" step="any" 
+                                    class="w-full h-12 pl-4 pr-4 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                    name="pH" required value="6.5" placeholder="0.0">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative">
+                        <label class="block text-sm font-semibold text-text-light dark:text-text-dark mb-2" for="rainfall">
+                            Rainfall
+                        </label>
+                        <div class="relative">
+                            <input type="number" step="any" 
+                                class="w-full h-12 pl-4 pr-12 rounded-xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" 
+                                name="rainfall" required value="202.93" placeholder="0">
+                            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-subtle-light dark:text-subtle-dark">mm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="flex justify-center">
+                    <button type="submit" class="group relative flex items-center justify-center gap-3 h-14 px-12 rounded-xl bg-gradient-to-r from-primary to-green-400 text-white text-base font-black shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                        <span class="material-symbols-outlined" style="font-size: 24px;">agriculture</span>
+                        <span>Get Crop Recommendation</span>
+                        <span class="material-symbols-outlined" style="font-size: 20px;">arrow_forward</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+        
+        <!-- Results Section -->
+        <section id="results-section" style="<?php echo $has_result ? '' : 'display: none;'; ?>">
+            
+            <!-- Success Header -->
+            <div class="text-center mb-10">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-sm font-semibold mb-4">
+                    <span class="material-symbols-outlined" style="font-size: 18px;">check_circle</span>
+                    Analysis Complete
+                </div>
+                <h2 class="text-3xl md:text-4xl font-black text-text-light dark:text-text-dark">
+                    Crop Recommendation
+                </h2>
             </div>
+
+            <!-- Bento Grid Layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
+                
+                <!-- Recommended Crop Card - Large Feature -->
+                <div class="lg:col-span-12 p-10 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 to-green-100/50 dark:from-primary/5 dark:to-green-900/20 border-2 border-primary/30 shadow-2xl">
+                    <div class="text-center">
+                        <div class="inline-flex items-center justify-center w-24 h-24 rounded-3xl bg-gradient-to-br from-primary to-green-400 text-white shadow-xl mb-6">
+                            <span class="material-symbols-outlined" style="font-size: 56px;">psychiatry</span>
+                        </div>
+                        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-4">Recommended Crop</p>
+                        <h3 class="text-6xl md:text-7xl font-black tracking-tight text-text-light dark:text-text-dark mb-6">
+                            <?php echo htmlspecialchars($crop_name); ?>
+                        </h3>
+                        <p class="text-lg text-subtle-light dark:text-subtle-dark max-w-2xl mx-auto">
+                            Based on your soil composition and environmental conditions, this crop is optimally suited for maximum yield
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Input Parameters Card -->
+                <div class="lg:col-span-5 p-8 rounded-3xl bg-gradient-to-br from-blue-50 to-white dark:from-blue-900/10 dark:to-surface-dark border-2 border-blue-200 dark:border-blue-800/50 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center gap-4 mb-6 pb-4 border-b-2 border-blue-200 dark:border-blue-800/50">
+                        <div class="flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-lg">
+                            <span class="material-symbols-outlined" style="font-size: 32px;">analytics</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-text-light dark:text-text-dark">Input Parameters</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <?php if (is_array($input_display)): ?>
+                            <?php foreach ($input_display as $key => $value): ?>
+                                <div class="p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
+                                    <p class="text-xs font-semibold uppercase tracking-wide text-subtle-light dark:text-subtle-dark mb-1">
+                                        <?php echo htmlspecialchars($key); ?>
+                                    </p>
+                                    <p class="text-2xl font-black text-text-light dark:text-text-dark">
+                                        <?php echo htmlspecialchars($value); ?>
+                                    </p>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <p class="col-span-2 text-sm text-subtle-light dark:text-subtle-dark"><?php echo htmlspecialchars($input_display); ?></p>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+                <!-- Cultivation Guide Card -->
+                <div class="lg:col-span-7 p-8 rounded-3xl bg-gradient-to-br from-green-50 to-white dark:from-green-900/10 dark:to-surface-dark border-2 border-green-200 dark:border-green-800/50 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center gap-4 mb-6 pb-4 border-b-2 border-green-200 dark:border-green-800/50">
+                        <div class="flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 text-white shadow-lg">
+                            <span class="material-symbols-outlined" style="font-size: 32px;">menu_book</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-text-light dark:text-text-dark">Cultivation Guide</h3>
+                    </div>
+                    
+                    <div class="text-base text-text-light dark:text-text-dark leading-relaxed max-h-[500px] overflow-y-auto custom-scrollbar pr-2">
+                        <?php 
+                        // Format the advice text with bold support
+                        $formatted_advice = $result_data['Advice'];
+                        // Convert **text** to <strong>text</strong>
+                        $formatted_advice = preg_replace('/\*\*(.*?)\*\*/', '<strong class="font-bold text-primary">$1</strong>', $formatted_advice);
+                        echo nl2br($formatted_advice); 
+                        ?>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex justify-center">
+                <button onclick="window.location.href='recommend_crop.php';" class="flex items-center justify-center gap-2 h-12 px-8 rounded-xl bg-gradient-to-r from-primary to-green-400 text-white text-sm font-black shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                    <span class="material-symbols-outlined" style="font-size: 20px;">refresh</span>
+                    <span>New Analysis</span>
+                </button>
+            </div>
+
         </section>
 
     </div>
@@ -201,5 +417,27 @@ if (isset($_GET['status']) && $_GET['status'] == 'success' && isset($_GET['file'
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// Mobile Menu Toggle
+const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', function() {
+        mobileMenu.classList.toggle('open');
+    });
+}
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', function(event) {
+    if (mobileMenu && mobileMenuToggle && 
+        !mobileMenu.contains(event.target) && 
+        !mobileMenuToggle.contains(event.target)) {
+        mobileMenu.classList.remove('open');
+    }
+});
+</script>
+
 </body>
 </html>
