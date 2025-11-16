@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-16 09:28:05
+User ID: 2
+------------------------------------------
+Detected Disease: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Confidence: 99.49%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-05 at 11.03.25_e9289310.jpg
+Image Path: results/img_1763281685_2.jpg
+
+--- AI Generated Advice ---
+Part 1: Apply a broad-spectrum fungicide (e.g., strobilurin, triazole, or SDHI) at the first sign of disease or when conditions favor its development to protect healthy tissue and reduce further spread.
+
+Part 2: Potassium (potash)

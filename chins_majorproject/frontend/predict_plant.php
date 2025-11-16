@@ -229,7 +229,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success' && isset($_GET['file'
             <div class="size-6 text-primary">
                 <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6_535)"><path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path></g></svg>
             </div>
-            <h2 class="text-lg font-bold">Plant AI</h2>
+            <h2 class="text-lg font-bold">AgriVision AI</h2>
         </div>
         
         <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -282,7 +282,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success' && isset($_GET['file'
                 </button>
                 <button id="wheatModeBtn" class="toggle-btn <?php echo $active_mode === 'wheat' ? 'active' : ''; ?>" onclick="switchMode('wheat')">
                     <span class="material-symbols-outlined mr-2.5" style="font-size: 22px;">agriculture</span>
-                    Wheat Disease Detection
+                    Stem/Root Disease Detection
                 </button>
             </div>
         </div>
@@ -298,7 +298,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success' && isset($_GET['file'
         <!-- Wheat Mode Content -->
         <div id="wheatContent" class="mode-content" style="display: <?php echo $active_mode === 'wheat' ? 'block' : 'none'; ?>;">
             <div class="text-center mb-8">
-                <h2 class="text-2xl font-bold text-text-light dark:text-text-dark mb-2">Wheat Disease Analysis</h2>
+                <h2 class="text-2xl font-bold text-text-light dark:text-text-dark mb-2">Stem/Root Disease Analysis</h2>
                 <p class="text-base text-gray-600 dark:text-gray-400">Upload an image of wheat stem or root to detect infections and diseases</p>
             </div>
         </div>

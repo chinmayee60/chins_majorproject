@@ -90,14 +90,14 @@ exit();
             <div class="size-6 text-primary">
                 <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6_535)"><path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path></g></svg>
             </div>
-            <h2 class="text-lg font-bold">Plant AI</h2>
+            <h2 class="text-lg font-bold">AgriVision AI</h2>
         </div>
         
         <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
             <a href="auth.php?landing=1" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Home</a>
             <a href="index.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Dashboard</a>
             <a href="predict_plant.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Diagnosis</a>
-            <a href="predict_wheat.php" class="text-text-light dark:text-text-dark font-bold hover:text-primary transition-colors">Wheat</a>
+            <a href="predict_wheat.php" class="text-text-light dark:text-text-dark font-bold hover:text-primary transition-colors">Stem/Root</a>
             <a href="recommend_crop.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Crop Tool</a>
             <a href="recommend_map.php" class="text-text-light dark:text-text-dark hover:text-primary transition-colors">Map</a>
             <a href="index.php?logout=true" class="px-4 py-2 rounded-lg bg-primary/20 text-text-light hover:bg-primary/30 transition-colors font-bold">Logout</a>
@@ -111,7 +111,7 @@ exit();
             <a href="auth.php?landing=1" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Home</a>
             <a href="index.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Dashboard</a>
             <a href="predict_plant.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Diagnosis</a>
-            <a href="predict_wheat.php" class="px-4 py-2 text-sm font-bold hover:bg-primary/10 rounded transition-colors">Wheat</a>
+            <a href="predict_wheat.php" class="px-4 py-2 text-sm font-bold hover:bg-primary/10 rounded transition-colors">Stem/Root</a>
             <a href="recommend_crop.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Crop Tool</a>
             <a href="recommend_map.php" class="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded transition-colors">Map</a>
             <a href="index.php?logout=true" class="px-4 py-2 bg-primary/20 rounded text-sm font-bold hover:bg-primary/30 transition-colors">Logout</a>

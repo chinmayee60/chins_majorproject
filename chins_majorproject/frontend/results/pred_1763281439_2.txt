@@ -1,0 +1,13 @@
+Model Type: Plant
+Timestamp: 2025-11-16 09:23:59
+User ID: 2
+------------------------------------------
+Detected Disease: Apple___Apple_scab
+Confidence: 99.98%
+Input Detail: Uploaded file: WhatsApp Image 2025-11-04 at 20.22.41_a0a12b5b.jpg
+Image Path: results/img_1763281439_2.jpg
+
+--- AI Generated Advice ---
+Part 1: To manage existing apple scab and protect new growth, apply a systemic fungicide like myclobutanil, or an organic copper or sulfur-based spray, following label instructions for timing and frequency.
+
+Part 2: **Potassium (potash)** to enhance overall tree vigor, stress tolerance, and bolster natural disease resistance, aiding in recovery and future resilience.

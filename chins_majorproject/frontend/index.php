@@ -49,7 +49,7 @@ $stmt->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Plant AI</title>
+    <title>Dashboard - AgrVision AI</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
@@ -121,7 +121,7 @@ $stmt->close();
             <div class="size-6 text-primary">
                 <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6_535)"><path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path></g></svg>
             </div>
-            <h2 class="text-lg font-bold">Plant AI</h2>
+            <h2 class="text-lg font-bold">AgriVision AI</h2>
         </div>
         
         <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -237,7 +237,7 @@ $stmt->close();
                         </div>
                         <div>
                             <h3 class="text-xl font-black text-text-light dark:text-text-dark mb-2">Stem Disease Detection</h3>
-                            <p class="text-sm text-subtle-light dark:text-subtle-dark">Diagnose wheat stem and root diseases</p>
+                            <p class="text-sm text-subtle-light dark:text-subtle-dark">Diagnose stem and root diseases</p>
                         </div>
                     </a>
 
@@ -335,7 +335,7 @@ $stmt->close();
                 </div>
                 <div>
                     <div class="flex items-center gap-2">
-                        <h3 class="text-lg md:text-xl font-black text-text-light dark:text-text-dark">Plant AI</h3>
+                        <h3 class="text-lg md:text-xl font-black text-text-light dark:text-text-dark">AgriVision AI</h3>
                         <span class="px-1.5 py-0.5 rounded bg-primary/20 text-primary text-[10px] font-bold">PRO</span>
                     </div>
                     <p class="text-[10px] md:text-xs font-semibold text-subtle-light dark:text-subtle-dark">Report Viewer</p>
